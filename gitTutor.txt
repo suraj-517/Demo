@@ -6,6 +6,7 @@ git init
 git commit -m "Initial Commit"
 git status #just to see
 
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 git remote add origin <ssh url.git>
 git push origin master
